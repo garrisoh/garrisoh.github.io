@@ -1,3 +1,4 @@
+/* Format top image to fit screen */
 #mainimg {
 	position:absolute;
 	left:0px;
@@ -9,19 +10,31 @@
 	background-size:cover;
 }
 
-.mainmenu {
+/* Position main menu below image */
+#menu {
 	position:absolute;
 	left:0px;
 	top:35%;
 	width:100%;
 }
 
+/* Make menu bar horizontal (vertical by default) */
 #menu li { 
 	display:inline-block;
-	width:auto;
+	width:19.5%;
+	text-align:center;
 }
 
+/* Make sub menus vertical */
 #menu li.sub {
 	display:block;
-	width: auto;
+	text-align:center;
+}
+
+#maincontent {
+	position:absolute;
+	top:45%;
+	left:5%;
+	right:5%;
+	height:auto;
 }
