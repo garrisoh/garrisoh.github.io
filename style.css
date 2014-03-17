@@ -24,12 +24,16 @@
 	display:inline-block;
 	width:19.5%;
 	text-align:center;
+	white-space:nowrap;
+	overflow:hidden;
 }
 
 /* Make sub menus vertical */
 #menu li.sub {
 	display:block;
 	text-align:center;
+	white-space:nowrap;
+	overflow:hidden;
 }
 
 /* Main text content */
