@@ -1,0 +1,5 @@
+// Navbar styling
+
+.navbar-default {
+	@include opacity($navbar-opacity);
+}

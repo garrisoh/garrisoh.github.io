@@ -1,0 +1,10 @@
+// Font-awesome styling
+
+.fa {
+	color: $gray-dark;
+
+	&:hover,
+	&:focus {
+		color: $gray-darker;
+	}
+}

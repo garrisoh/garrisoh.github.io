@@ -1,1 +1,5 @@
 .DS_Store
+
+src/ws.py
+.sass-cache
+node_modules

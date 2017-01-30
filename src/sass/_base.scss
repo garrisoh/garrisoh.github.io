@@ -1,0 +1,17 @@
+// Base level setup
+
+p {
+	font-size: $font-size-large;
+	padding-bottom: $paragraph-pad-bottom;
+}
+
+body {
+	font-weight: $font-weight-base;
+	position: relative;
+}
+
+h1,
+.h1 {
+	padding-bottom: $header-pad-bottom;
+	padding-top: $header-pad-top;
+}

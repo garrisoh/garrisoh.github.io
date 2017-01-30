@@ -1,0 +1,39 @@
+// Carousel styling
+
+.carousel {
+	padding-bottom: $carousel-pad-bottom;
+	padding-top: $carousel-pad-top;
+	position: relative;
+	z-index: 1000;
+
+	.item {
+		img {
+			margin-left: auto;
+			margin-right: auto;
+			max-height: $carousel-height;
+		}
+	}
+
+	// Hide controls unless hovering over carousel
+	.carousel-control {
+		@include opacity(0);
+		background-image: none;
+		transition: opacity $carousel-control-trans-duration linear 0s, visibility 0s linear $carousel-control-trans-duration;
+		visibility: hidden;
+	}
+
+	&:hover,
+	&:focus {
+		.carousel-control {
+			@include opacity($carousel-control-opacity);
+			transition-delay: 0s;
+			transition-duration: 0s;
+			visibility: visible;
+
+			&:hover,
+			&:focus {
+				@include opacity($carousel-control-opacity-hover);
+			}
+		}
+	}
+}

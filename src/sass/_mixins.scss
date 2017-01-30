@@ -1,0 +1,9 @@
+// Creates a horizontally centered vertical line
+
+@mixin vertical-rule($height, $weight, $color) {
+	background-color: $color;
+	height: $height;
+	margin-left: auto;
+	margin-right: auto;
+	width: $weight;
+}

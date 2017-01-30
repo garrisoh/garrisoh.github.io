@@ -1,0 +1,21 @@
+{
+  "name": "haley-garrison",
+  "main": "index.js",
+  "authors": [
+    "Haley Garrison <hgarriso@gmail.com>"
+  ],
+  "description": "My personal website",
+  "keywords": [
+    "software",
+    "engineer",
+    "developer",
+    "application"
+  ],
+  "homepage": "garrisoh.github.io",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

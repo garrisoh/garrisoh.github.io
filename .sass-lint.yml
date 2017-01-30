@@ -1,0 +1,8 @@
+rules:
+  indentation:
+    - 1
+    - size: 'tab'
+  no-duplicate-properties:
+    - 1
+    - exclude:
+      - transform

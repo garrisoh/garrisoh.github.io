@@ -1,0 +1,19 @@
+// Scroll animations - slide down and fade in
+
+.animated {
+	@include opacity(0);
+	position: relative;
+	transform: translate(0, $animate-distance);
+	transform: translate3d(0, $animate-distance, 0); // Use hardware acceleration if possible
+	transition: visibility 0s linear $animate-duration, opacity $animate-duration ease-out 0s, transform $animate-duration ease-out 0s;
+	visibility: hidden;
+	z-index: 1000;
+}
+
+.animate {
+	@include opacity(1);
+	transform: translate(0, 0);
+	transform: translate3d(0, 0, 0);
+	transition-delay: 0s;
+	visibility: visible;
+}

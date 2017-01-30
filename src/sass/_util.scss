@@ -1,0 +1,26 @@
+// Utility classes
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: $bold-weight;
+}
+
+.italic {
+	font-style: italic;
+	font-weight: 100;
+}
+
+.vrule-50 {
+	@include vertical-rule(50px, 1px, $gray-light);
+}
+
+.section-end {
+	height: $section-end-space;
+}
+
+.subsection-end {
+	height: $subsection-end-space;
+}

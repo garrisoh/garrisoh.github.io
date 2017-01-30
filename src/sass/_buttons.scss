@@ -1,0 +1,27 @@
+// Button styling
+
+.btn {
+	border-color: transparent;
+	margin-bottom: $btn-margin-bottom;
+}
+
+.to-top {
+	@include opacity(0);
+	border-color: $btn-default-border;
+	border-radius: $border-radius-base;
+	border-style: solid;
+	bottom: $to-top-btn-bottom;
+	color: $gray-light;
+	position: fixed;
+	right: $to-top-btn-right;
+	transition: visibility 0s linear $to-top-btn-anim-dur, opacity $to-top-btn-anim-dur linear 0s;
+	visibility: hidden;
+	z-index: 2000;
+
+	&.affix {
+		@include opacity($to-top-btn-opacity);
+		transition-delay: 0s;
+		visibility: visible;
+		z-index: 2000;
+	}
+}

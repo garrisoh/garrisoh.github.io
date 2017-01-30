@@ -1,0 +1,60 @@
+// **** Bootstrap overrides ****//
+
+// Set glyphicon path
+$icon-font-path: '../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Fonts
+$font-family-sans-serif: 'Raleway', sans-serif !default;
+$headings-font-weight: 100;
+
+// Jumbotron
+$jumbotron-heading-font-size: 50px;
+
+// Navbar
+$navbar-default-border: transparent;
+$navbar-default-bg: #fff;
+
+// Images
+$border-radius-large: 20%;
+
+// **** Font-awesome overrides ****//
+$fa-font-path: '../bower_components/font-awesome/fonts';
+
+
+// **** Custom variables ****//
+
+// Spacing
+$section-end-space: 70px;
+$subsection-end-space: 35px;
+$header-pad-bottom: $subsection-end-space;
+$header-pad-top: $header-pad-bottom;
+$paragraph-pad-bottom: 15px;
+$profile-pad-bottom: $paragraph-pad-bottom;
+$btn-margin-bottom: $paragraph-pad-bottom;
+$carousel-pad-bottom: 30px;
+$carousel-pad-top: $carousel-pad-bottom;
+
+// Fonts
+$font-weight-base: 200;
+$bold-weight: 500;
+
+// Navbar
+$navbar-opacity: .75;
+
+// Jumbotron
+$jumbotron-image: url('images/jumbotron.png');
+
+// Animations
+$animate-distance: -100px;
+$animate-duration: .7s;
+
+// Carousel
+$carousel-height: 300px;
+$carousel-control-opacity-hover: .9;
+$carousel-control-trans-duration: .25s;
+
+// Back to top button
+$to-top-btn-bottom: 25px;
+$to-top-btn-right: 25px;
+$to-top-btn-opacity: $navbar-opacity;
+$to-top-btn-anim-dur: .25s;

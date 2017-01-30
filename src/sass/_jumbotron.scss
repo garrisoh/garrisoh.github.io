@@ -1,0 +1,46 @@
+// Jumbotron header image
+
+.fullscreen {
+	height: 100vh;
+}
+
+.vcenter-outer {
+	display: table;
+	position: relative;
+	width: 100%;
+}
+
+.vcenter-inner {
+	display: table-cell;
+	position: absolute;
+	top: 37%;
+	transform: translateY(-50%);
+	vertical-align: middle;
+	width: 100%;
+}
+
+.jumbotron {
+	background: $jumbotron-image no-repeat center center;
+	background-size: cover;
+	padding-top: 0;
+	text-align: center;
+
+	h1,
+	.h1 {
+		padding-left: 10px;
+		padding-right: 10px;
+		//left: -.12em;
+		//position: relative;
+		//position: relative;
+		//top: -1.75em;
+	}
+}
+
+@media only screen and (max-width: $screen-xs) {
+	.jumbotron {
+		h1,
+		.h1 {
+			font-size: 2em;
+		}
+	}
+}
